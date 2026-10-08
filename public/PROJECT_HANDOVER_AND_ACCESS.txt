@@ -1,0 +1,124 @@
+================================================================================
+MEDLAB INNOVATE ENGINEERING LTD
+COMPREHENSIVE PROJECT HANDOVER & ACCESS TRANSFER DOCUMENT
+================================================================================
+
+Dear Client,
+
+Here is the complete project handover and access transfer package for Medlab 
+Innovate Engineering Ltd. As requested, all platforms are structured so your 
+company account can hold Primary Ownership, while retaining developer collaborator 
+access for ongoing maintenance, monitoring, and future updates.
+
+--------------------------------------------------------------------------------
+1. WEBSITE SOURCE CODE & GIT REPOSITORY
+--------------------------------------------------------------------------------
+* Repository URL:     https://github.com/yashk40/MEDLAB
+* Primary Branch:     main (Production Ready)
+* Tech Stack:         Next.js 14 (App Router), TypeScript, Tailwind CSS, 
+                      Node.js/Express, Firebase Firestore & Storage, 
+                      Cloudflare Workers AI.
+* Ownership Transfer: Please provide your official company GitHub username/email. 
+                      We will transfer repository ownership or grant Super Admin 
+                      privileges to your account, keeping developer collaborator 
+                      access for maintenance.
+
+--------------------------------------------------------------------------------
+2. ADMIN PANEL & LOGIN ACCESS
+--------------------------------------------------------------------------------
+* Production Portal:  https://medlabinnovate.co.ke/admin/login
+* Access Role:        Super Admin
+* Default Email:      admin@medlabinnovate.co.ke
+* Management Scope:   - Medical Equipment Catalog (CRUD, Specifications, PDF Sheets)
+                      - Quotation Generator (Auto-numbering, Multi-currency, PDF)
+                      - Client Inquiries & Lead Management
+                      - Service & Technical Support Tickets
+                      - System Audit & Activity Logs
+
+--------------------------------------------------------------------------------
+3. HOSTING & DEPLOYMENT ACCESS
+--------------------------------------------------------------------------------
+* Frontend Platform:  Vercel (https://medlabinnovate.co.ke)
+  - Framework Preset: Next.js
+  - Root Directory:   Medlab
+  - Transfer:         We can invite your company email as "Owner" / "Admin".
+* Backend Service:    Node.js / Express API Service
+  - Endpoints:        Quotation numbering, PDF generation, Email dispatch, Health.
+
+--------------------------------------------------------------------------------
+4. DNS & DOMAIN CONFIGURATION
+--------------------------------------------------------------------------------
+* Production Domain:  medlabinnovate.co.ke
+* Configured Records: - A / CNAME pointing to Vercel production edge
+                      - TXT / MX records for domain verification & email routing
+* DNS Access:         Cloudflare / Domain Registrar management access will be 
+                      assigned to your company email as Administrator.
+
+--------------------------------------------------------------------------------
+5. FIREBASE PROJECT ACCESS (DATABASE & STORAGE)
+--------------------------------------------------------------------------------
+* Firebase Console:   https://console.firebase.google.com/
+* Services Used:
+  - Cloud Firestore:  Database for products, quotations, inquiries, tickets, logs.
+  - Firebase Storage: Product manuals, spec sheets, photos, generated quote PDFs.
+  - Security Rules:   firestore.rules & storage.rules deployed with role checks.
+* Transfer Steps:     In Firebase Console -> Project Settings -> Users and 
+                      permissions -> Add Member -> Add your company Google email 
+                      as "Owner".
+
+--------------------------------------------------------------------------------
+6. CLOUDFLARE ACCESS & MEDBOT EDGE AI
+--------------------------------------------------------------------------------
+* Dashboard:          https://dash.cloudflare.com/
+* Service:            Cloudflare Workers AI (medbot-worker.js)
+* Purpose:            Sub-second Edge AI assistant for medical equipment 
+                      recommendations, quotation triage, and user support.
+* Transfer Steps:     Manage Account -> Members -> Invite company email as Admin.
+
+--------------------------------------------------------------------------------
+7. GEMINI / AI CONFIGURATION & ACCESS
+--------------------------------------------------------------------------------
+* Console:            Google AI Studio / Google Cloud Vertex AI
+* AI Models:          Google Gemini 1.5 Pro/Flash & Cloudflare LLaMA 3
+* API Keys:           Securely stored as environment variables (GEMINI_API_KEY).
+
+--------------------------------------------------------------------------------
+8. CONNECTED THIRD-PARTY SERVICES
+--------------------------------------------------------------------------------
+* Transactional Email: Resend Email API (https://resend.com) for dispatching 
+                       official quotation PDFs, ticket alerts, and contact emails.
+* WhatsApp Widget:     Embedded direct WhatsApp customer routing in frontend.
+
+--------------------------------------------------------------------------------
+9. SETUP & LOCAL DEVELOPMENT INSTRUCTIONS
+--------------------------------------------------------------------------------
+Prerequisites: Node.js (18.x or 20.x), Git, npm
+
+A. Frontend Setup:
+   git clone https://github.com/yashk40/MEDLAB.git
+   cd MEDLAB/Medlab
+   npm install
+   npm run dev
+   # Open http://localhost:3000
+
+B. Backend Setup:
+   cd MEDLAB/backend
+   npm install
+   npm run dev
+   # Backend runs on http://localhost:5000
+
+C. Production Build:
+   cd MEDLAB/Medlab
+   npm run build
+
+--------------------------------------------------------------------------------
+10. NEXT STEPS TO FINALIZE TRANSFER
+--------------------------------------------------------------------------------
+Please reply with the official company email address(es) you would like to use for:
+  1. GitHub Organization / Account
+  2. Vercel Team / Account
+  3. Firebase / Google Cloud Owner Account
+  4. Cloudflare Administrator
+
+Once provided, all Owner invitations will be dispatched immediately.
+================================================================================

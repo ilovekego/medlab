@@ -1,0 +1,9 @@
+# Medlab Innovate Engineering Ltd — Robots Configuration
+# Disallow search engine crawlers from indexing private administrative channels
+User-agent: *
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/admin/
+Disallow: /mle-portal-745
+
+Sitemap: https://medlabinnovate.co.ke/sitemap.xml

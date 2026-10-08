@@ -1,0 +1,27 @@
+================================================================================
+MEDLAB INNOVATE ENGINEERING LTD — ADMIN ACCESS & ROUTING GUIDE
+================================================================================
+
+1. DIRECT ADMIN LOGIN URL:
+   Production: https://medlabinnovate.co.ke/admin/login
+   Local:      http://localhost:3000/admin/login
+
+2. ADMIN CREDENTIALS:
+   Email:    admin@medlabinnovate.co.ke
+   Role:     Super Admin
+   Status:   Active
+
+3. VERCEL DEPLOYMENT CONFIGURATION (To prevent redirecting to base URL):
+   If direct URLs like /admin/login redirect to homepage on Vercel:
+   
+   a) Go to Vercel Dashboard -> Your Project -> Settings -> General
+   b) Under "Root Directory", ensure it is set to: Medlab
+   c) Framework Preset should be: Next.js
+   d) The vercel.json configuration file has been added to automatically handle clean URLs and routing without redirect loops.
+
+4. ROUTING ARCHITECTURE:
+   - Next.js Middleware in Medlab/src/middleware.ts guards /admin routes.
+   - Unauthenticated visitors hitting /admin/* are automatically sent to /admin/login.
+   - Visitors directly hitting /admin/login can log in directly without bouncing to homepage.
+
+================================================================================

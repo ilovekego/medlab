@@ -1,0 +1,26 @@
+================================================================================
+MEDLAB INNOVATE ENGINEERING LTD — SECURE ADMIN ACCESS
+================================================================================
+
+Direct Admin Portal URL:
+  https://medlabinnovate.co.ke/admin/login
+
+Local Development URL:
+  http://localhost:3000/admin/login
+
+Admin Credentials (Database Seeded):
+  Email:    admin@medlabinnovate.co.ke
+  Role:     Super Admin
+  Status:   Active
+
+Security Notice:
+  - All /admin routes are protected by server-side Next.js middleware and client authentication.
+  - Direct visits to /admin or sub-pages will redirect unauthenticated visitors to /admin/login.
+  - Direct visits to /admin/login will render the staff authentication console.
+
+Vercel Deployment Settings:
+  - Framework Preset: Next.js
+  - Root Directory: Medlab
+  - Node.js Version: 18.x or 20.x
+
+================================================================================

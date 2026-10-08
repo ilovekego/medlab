@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 74" fill="none">
+  <defs>
+    <linearGradient id="iconHexGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0EA5A4" />
+    </linearGradient>
+    <linearGradient id="iconCrossGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0EA5A4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon Outer Frame -->
+  <path d="M 35 7 L 63 23 L 63 55 L 35 71 L 7 55 L 7 23 Z" 
+        stroke="url(#iconHexGrad)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+
+  <!-- Hexagon Connected Circuit Nodes -->
+  <circle cx="63" cy="23" r="4.5" fill="#0EA5A4" />
+  <circle cx="7" cy="55" r="4.5" fill="#2563EB" />
+
+  <!-- Medical Cross (+) with Smooth Rounded Ends -->
+  <path d="
+    M 30 20 C 30 18 31.5 17 33.5 17 L 36.5 17 C 38.5 17 40 18 40 20 L 40 30 L 50 30 C 52 30 53 31.5 53 33.5 L 53 36.5 C 53 38.5 52 40 50 40 L 40 40 L 40 50 C 40 52 38.5 53 36.5 53 L 33.5 53 C 31.5 53 30 52 30 50 L 30 40 L 20 40 C 18 40 17 38.5 17 36.5 L 17 33.5 C 17 31.5 18 30 20 30 L 30 30 Z
+  " fill="url(#iconCrossGrad)" />
+
+  <!-- Center Circular Core Dot -->
+  <circle cx="35" cy="35" r="3.5" fill="#FFFFFF" />
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" fill="none">
+  <defs>
+    <linearGradient id="crossGradWhite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0EA5A4" />
+    </linearGradient>
+    <linearGradient id="hexGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0EA5A4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hexagon Outer Frame -->
+  <path d="M 35 6 L 62 21.5 L 62 52.5 L 35 68 L 8 52.5 L 8 21.5 Z" 
+        stroke="url(#hexGradWhite)" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" fill="none" />
+
+  <!-- Hexagon Connected Nodes -->
+  <circle cx="62" cy="21.5" r="4" fill="#0EA5A4" />
+  <circle cx="8" cy="52.5" r="4" fill="#38BDF8" />
+
+  <!-- Medical Cross (+) with Rounded Ends -->
+  <path d="
+    M 30 19 C 30 17.5 31.5 16 33.5 16 L 36.5 16 C 38.5 16 40 17.5 40 19 L 40 28.5 L 49.5 28.5 C 51.5 28.5 53 30 53 32 L 53 35 C 53 37 51.5 38.5 49.5 38.5 L 40 38.5 L 40 48 C 40 50 38.5 51.5 36.5 51.5 L 33.5 51.5 C 31.5 51.5 30 50 30 48 L 30 38.5 L 20.5 38.5 C 18.5 38.5 17 37 17 35 L 17 32 C 17 30 18.5 28.5 20.5 28.5 L 30 28.5 Z
+  " fill="url(#crossGradWhite)" />
+
+  <!-- Center Circular Dot -->
+  <circle cx="35" cy="33.5" r="3.5" fill="#FFFFFF" />
+
+  <!-- Typography -->
+  <!-- Top: MEDLAB in Pure White -->
+  <text x="76" y="27" font-family="'Poppins', sans-serif" font-weight="900" font-size="26" fill="#FFFFFF" letter-spacing="0.5">MEDLAB</text>
+
+  <!-- Middle: INNOVATE ENGINEERING in Medical Cyan/Blue -->
+  <text x="76" y="45" font-family="'Poppins', sans-serif" font-weight="700" font-size="12" fill="#38BDF8" letter-spacing="3.2">INNOVATE ENGINEERING</text>
+
+  <!-- Bottom: LTD • MEDICAL & LAB SOLUTIONS in Light Silver -->
+  <text x="76" y="60" font-family="'Poppins', sans-serif" font-weight="600" font-size="8.5" fill="#CBD5E1" letter-spacing="2.6">LTD • MEDICAL &amp; LAB SOLUTIONS</text>
+</svg>
