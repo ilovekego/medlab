@@ -88,8 +88,23 @@ export function Footer() {
         </div>
 
         {/* Footer Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-4">
-          <p>© {new Date().getFullYear()} Medlab Innovate Engineering Ltd. All rights reserved.</p>
+        <div className="pt-8 flex flex-col lg:flex-row justify-between items-center text-xs text-slate-400 gap-4">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <p>© {new Date().getFullYear()} Medlab Innovate Engineering Ltd. All rights reserved.</p>
+            <span className="hidden sm:inline text-slate-600">•</span>
+            <p>
+              Developed by{' '}
+              <a 
+                href="https://vinniedigitalhub.co.ke/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-slate-200 hover:text-white transition-colors font-medium underline decoration-slate-600 underline-offset-4"
+              >
+                Vinnie Digital Hub
+              </a>
+            </p>
+          </div>
+
           <div className="flex items-center space-x-6">
             <Link href="/about" className="hover:text-white transition-colors">Quality Policy</Link>
             <Link href="/support" className="hover:text-white transition-colors">Service Desk</Link>
